@@ -71,6 +71,8 @@
 | Python security tooling | [SOC Analyst Toolkit](https://github.com/songagona2017-ops/soc-toolkit) |
 | Log parsing & brute-force detection | [SOC Analyst Toolkit](https://github.com/songagona2017-ops/soc-toolkit) |
 | SIEM deployment & attack simulation | [Home SOC Lab](https://github.com/songagona2017-ops/home-soc-lab) |
+| Incident response, forensics & threat intel | [Blue Team Labs](https://github.com/songagona2017-ops/blue-team-labs) |
+| Phishing triage & email authentication (SPF/DKIM/DMARC) | [Phishing Analyzer](https://github.com/songagona2017-ops/phishing-analyzer) |
 | AI / LLM security testing | [AI Security Scanner](https://github.com/songagona2017-ops/ai-security-scanner) |
 
 ---
@@ -79,7 +81,9 @@
 
 | Project | What it demonstrates |
 |---------|----------------------|
+| 🧪 **[Blue Team Labs](https://github.com/songagona2017-ops/blue-team-labs)** | 5 hands-on SOC labs — **incident response & triage, phishing analysis, MISP threat intel, Splunk SIEM, digital forensics**. The full detect → investigate → contain → report workflow. |
 | 🎯 **[Detection Engineering Lab](https://github.com/songagona2017-ops/detection-engineering-lab)** | SIEM detection rules in **Sigma → Splunk SPL → Sentinel KQL**, mapped to **MITRE ATT&CK**, each with sample logs & analyst triage playbooks. |
+| 🎣 **[Phishing Analyzer](https://github.com/songagona2017-ops/phishing-analyzer)** | **Python** CLI that parses email headers (SPF/DKIM/DMARC), extracts IOCs, and risk-scores a `.eml` — CRITICAL vs LOW verdicts, with sample emails & unit tests. |
 | 🐍 **[SOC Analyst Toolkit](https://github.com/songagona2017-ops/soc-toolkit)** | **Python** tool: parse auth logs, detect brute force, enrich IOCs, output triage reports. Dependency-free & tested. |
 | 🏠 **[Home SOC Lab](https://github.com/songagona2017-ops/home-soc-lab)** | Documented **Wazuh SIEM** lab — simulate attacks, detect with ATT&CK-mapped rules, respond. |
 | 🤖 **[AI Security Scanner](https://github.com/songagona2017-ops/ai-security-scanner)** | LLM red-teaming tool — automated prompt-injection vulnerability detection. |
