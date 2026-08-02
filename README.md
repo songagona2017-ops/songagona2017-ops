@@ -38,7 +38,7 @@
 - ✅ **Blue Team Level 1 (BTL1)** — Security Blue Team
 - ✅ **CompTIA Security+**
 - ✅ **Certificate IV in Cyber Security**
-- 🛠️ **CompTIA CySA+** *(in progress)*
+- ✅ **CCNA** — Cisco Certified Network Associate
 
 ---
 
